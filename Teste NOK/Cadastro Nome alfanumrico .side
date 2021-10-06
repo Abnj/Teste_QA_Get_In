@@ -1,0 +1,224 @@
+{
+  "id": "5ed5bf8d-32f3-4806-afd5-c44a76729258",
+  "version": "2.0",
+  "name": "Cadastro Nome alfanumérico ",
+  "url": "https://www.getinapp.com.br",
+  "tests": [{
+    "id": "720f97c8-220d-4903-a86e-24c4b6c27f09",
+    "name": "Cadastro Nome alfanumérico ",
+    "commands": [{
+      "id": "1a781f54-9ba5-44df-8e7d-77583d91d760",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9953506f-3265-48d8-b9d6-86c983220ae3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f90fd915-a49b-4a37-b786-55afd7d13169",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": "Cadastre-se"
+    }, {
+      "id": "590f8bb8-cda0-4bc8-b5f7-ad8aefe2f492",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b83e927d-52dc-4b0b-aba1-6c95d492b797",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone CONTINUAR COM CELULAR"
+    }, {
+      "id": "4334db33-84ca-46b9-9766-70d2aa2fec61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9fada07-2669-4fb6-938c-b76aba1d0772",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1519cab8-2357-4279-9f96-ba35358930c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "(92) 9 9231-2593"
+    }, {
+      "id": "f99a7294-9088-4c97-83d9-b2347f60028f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.submitButton",
+      "targets": [
+        ["css=.submitButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": "CONTINUAR"
+    }, {
+      "id": "162afc58-95a8-4509-b978-0bc22eae678e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submitButton",
+      "targets": [
+        ["css=.submitButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b05fda2-7ddf-4a2b-bc03-910c6781799d",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f0db327-0f11-45d4-92c2-9dd906c3b9fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "9576"
+    }, {
+      "id": "48ad59bc-0c06-44c9-b774-5663a7bbae6c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone VALIDAR CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone VALIDAR CELULAR"
+    }, {
+      "id": "81ebcdee-6983-4eda-a3ad-bdcd6aeddb42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone VALIDAR CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d49a948-2b22-4d61-b3ab-fa0e078e9cf6",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "222222222222222"
+    }, {
+      "id": "0052e844-a02a-4a26-af6c-c720ca80d9ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//input[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ana14mirian@gmail.com"
+    }, {
+      "id": "ae3b8ac9-aa12-4728-8935-6be5b85624a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-5",
+      "targets": [
+        ["id=mat-input-5", "id"],
+        ["css=#mat-input-5", "css:finder"],
+        ["xpath=//input[@id='mat-input-5']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div[3]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }]
+  }],
+  "suites": [{
+    "id": "3d4b3c17-3548-4060-b303-c244dd46f1a6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["720f97c8-220d-4903-a86e-24c4b6c27f09"]
+  }],
+  "urls": ["https://www.getinapp.com.br/"],
+  "plugins": []
+}

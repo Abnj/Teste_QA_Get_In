@@ -1,0 +1,513 @@
+{
+  "id": "97f985ea-001a-4d31-b197-a503717f4cb6",
+  "version": "2.0",
+  "name": "Cadastro de Cliente sem Número",
+  "url": "https://www.getinapp.com.br",
+  "tests": [{
+    "id": "afd820df-0301-4743-95d9-5ef68945036a",
+    "name": "Cadastro de Cliente  sem Número de celular ",
+    "commands": [{
+      "id": "d0d63777-9843-43cf-8863-ec39df7a7068",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a496346e-a184-47e9-a83c-0a2d6ea92f38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6d5b505-46d9-46d6-b96c-3a57875e476d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": "Cadastre-se"
+    }, {
+      "id": "4a0f9fe3-e8b2-4494-87d8-c73a4a16b74c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca2d2246-9ed3-4b91-97da-32c764593ad1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone CONTINUAR COM CELULAR"
+    }, {
+      "id": "0fb01f48-b8e9-4e64-a790-37e772a598fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.phone",
+      "targets": [
+        ["css=.phone", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//app-login/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb21a34-97e4-4c3c-9e8d-58628c8cd171",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.submitButton > .mat-button-wrapper",
+      "targets": [
+        ["css=.submitButton > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": "CONTINUAR"
+    }]
+  }, {
+    "id": "030499cd-2caa-446b-b641-34d90e7e2d7a",
+    "name": "Cadastro Com Senha Menor que o permitido",
+    "commands": [{
+      "id": "ceda20a5-a4a2-4997-a64a-71a20152db34",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "028bfecf-b4ae-46db-88ff-3f48c9fe0f24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69c98f66-46ce-4c9a-9d96-6014d0dc7829",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": "Cadastre-se"
+    }, {
+      "id": "ee70ba37-0d0d-4f92-b1d4-f82315690c04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd2d5b28-663b-4cda-8de4-010951f6ef03",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone CONTINUAR COM CELULAR"
+    }, {
+      "id": "e294c30c-172e-4e84-aed1-f77085521108",
+      "comment": "",
+      "command": "click",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a629477b-c35e-4f03-ae97-bbc68e8f7b6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dce9312-bc34-47c1-bad0-baea98276ca5",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "(92) 9 9231-2593"
+    }, {
+      "id": "0408aea5-b890-4b7a-b0c7-4d4e61b9184f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.submitButton > .mat-button-wrapper",
+      "targets": [
+        ["css=.submitButton > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": "CONTINUAR"
+    }, {
+      "id": "388a4f80-fee7-4567-94f9-16fd2d5f8933",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submitButton > .mat-button-wrapper",
+      "targets": [
+        ["css=.submitButton > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59965723-bf09-4a95-ac15-4f1d7ab0ee3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7989"
+    }, {
+      "id": "a95891a4-b42d-4ceb-9b91-969cb15bf7ca",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone VALIDAR CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone VALIDAR CELULAR"
+    }, {
+      "id": "fa011679-3e62-4b52-a3e0-e49bf4dde9a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone VALIDAR CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85dbde71-35a0-4cb1-9abe-8e6ae09458db",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ana"
+    }, {
+      "id": "0ef646bd-7bb5-4762-97f5-eecb47f6802c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//input[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ana14mirian@gmail.com"
+    }, {
+      "id": "a2eb145c-4a20-4784-b89c-9cd6386899e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-5",
+      "targets": [
+        ["id=mat-input-5", "id"],
+        ["css=#mat-input-5", "css:finder"],
+        ["xpath=//input[@id='mat-input-5']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div[3]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "00eed5cc-5d23-49d8-8938-20f751d1b21a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='register']/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": "ENVIAR"
+    }]
+  }, {
+    "id": "d80007d0-7b50-4953-b028-343eb59106ec",
+    "name": "Cadastro Sem Nome",
+    "commands": [{
+      "id": "6a481928-5e4e-43cf-8de4-dbcb293ecdb6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "facee497-19df-4322-b1c6-fd85d470b416",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "675f1599-63f6-49c2-89c5-130604f2c763",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": "Cadastre-se"
+    }, {
+      "id": "30fcec83-298d-47c2-a4de-31b0e0f43beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CTA",
+      "targets": [
+        ["css=.CTA", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edfa82e4-1eab-46b9-8f55-880b5a17d7ff",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone CONTINUAR COM CELULAR"
+    }, {
+      "id": "538744a4-5ea1-4a25-ad1c-4b7f395333a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a63a70-615e-44ec-aeef-56d4ad4c5377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4d03741-c8f1-4975-a1ec-3089af869f0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d96e2e1-0ae5-4761-bc3e-2dbca96daf8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "(92) 9 9231-2593"
+    }, {
+      "id": "176a0ebb-120d-454b-a6ec-673c67c72f46",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.submitButton > .mat-button-wrapper",
+      "targets": [
+        ["css=.submitButton > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": "CONTINUAR"
+    }, {
+      "id": "d85d2712-1fdc-480a-b54a-bc5486e3b8fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submitButton",
+      "targets": [
+        ["css=.submitButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab679026-734e-4f78-a823-95b07997fc55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-form-field-infix",
+      "targets": [
+        ["css=.mat-form-field-infix", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/mat-form-field/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//mat-form-field/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb88c973-b044-42db-a779-cf06e6011014",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/mat-form-field/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "7613"
+    }, {
+      "id": "01dba360-0002-4599-99fb-495166e2fd46",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone VALIDAR CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone VALIDAR CELULAR"
+    }, {
+      "id": "ebb1f844-294c-4910-add9-f284343742cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused",
+      "targets": [
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'phone_iphone VALIDAR CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bacff007-1f6c-416e-aec2-e634bc20d280",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//input[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ana14mirian@gmail.com"
+    }, {
+      "id": "1176644b-6a7a-4694-9c87-b9667becdde7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mat-button:nth-child(4)",
+      "targets": [
+        ["css=.mat-button:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='register']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": "ENVIAR"
+    }, {
+      "id": "f35ed356-33e1-4588-ab74-1a622050b089",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-5",
+      "targets": [
+        ["id=mat-input-5", "id"],
+        ["css=#mat-input-5", "css:finder"],
+        ["xpath=//input[@id='mat-input-5']", "xpath:attributes"],
+        ["xpath=//div[@id='register']/div/div/form/div[3]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }]
+  }],
+  "suites": [{
+    "id": "80bc658b-90a4-4b10-956a-6b1ace03b7bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["afd820df-0301-4743-95d9-5ef68945036a"]
+  }],
+  "urls": ["https://www.getinapp.com.br/"],
+  "plugins": []
+}

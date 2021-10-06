@@ -1,0 +1,95 @@
+{
+  "id": "97f985ea-001a-4d31-b197-a503717f4cb6",
+  "version": "2.0",
+  "name": "Cadastro de Cliente sem Número",
+  "url": "https://www.getinapp.com.br",
+  "tests": [{
+    "id": "afd820df-0301-4743-95d9-5ef68945036a",
+    "name": "Cadastro de Cliente  sem Número de celular ",
+    "commands": [{
+      "id": "d0d63777-9843-43cf-8863-ec39df7a7068",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a496346e-a184-47e9-a83c-0a2d6ea92f38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6d5b505-46d9-46d6-b96c-3a57875e476d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": "Cadastre-se"
+    }, {
+      "id": "4a0f9fe3-e8b2-4494-87d8-c73a4a16b74c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CTA > .mat-button-wrapper",
+      "targets": [
+        ["css=.CTA > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca2d2246-9ed3-4b91-97da-32c764593ad1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.phone > .mat-button-wrapper",
+      "targets": [
+        ["css=.phone > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": "phone_iphone CONTINUAR COM CELULAR"
+    }, {
+      "id": "0fb01f48-b8e9-4e64-a790-37e772a598fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.phone",
+      "targets": [
+        ["css=.phone", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//app-login/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'phone_iphone CONTINUAR COM CELULAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb21a34-97e4-4c3c-9e8d-58628c8cd171",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.submitButton > .mat-button-wrapper",
+      "targets": [
+        ["css=.submitButton > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[@id='login']/div[2]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CONTINUAR')]", "xpath:innerText"]
+      ],
+      "value": "CONTINUAR"
+    }]
+  }],
+  "suites": [{
+    "id": "80bc658b-90a4-4b10-956a-6b1ace03b7bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["afd820df-0301-4743-95d9-5ef68945036a"]
+  }],
+  "urls": ["https://www.getinapp.com.br/"],
+  "plugins": []
+}
